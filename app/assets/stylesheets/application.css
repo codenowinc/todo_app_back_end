@@ -13,8 +13,9 @@
  *= require_tree .
  *= require_self
  */
-
-body{ 
+ 
+ /*style.css*/
+ body{ 
  color: #424242;
  background-color: #ECEFF1;
  font-family: sans-serif;
@@ -88,6 +89,7 @@ a{
   color: #212121;
 }
 
+/*index.css*/
 ul{
   list-style: none;
   font-size: 20px;
@@ -103,7 +105,7 @@ li:hover{
   border-radius: 3px;
 }
 
-span{
+.small-pomodoro-estimate{
   font-size: 14px;
   padding: 5px 10px 5px 10px;
 }
@@ -121,4 +123,34 @@ span{
   display: block;
   background-color: #03A9F4;
   margin-top: 10px;
+}
+
+/*show.css*/
+h2{
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 32px;
+  margin: 20px 0px;
+}
+
+.large-pomodoro-estimate{
+  margin-top: 0px;
+  display: block;
+  width: 130px;
+  font-size: 20px;
+  padding: 10px 15px 10px 15px;
+  margin-bottom: 20px;
+}
+
+#edit-todo-button{
+  display: inline-block;
+  width: 40px;
+  background-color: #1ABC9C;
+  margin-right: 5px;
+}
+
+#delete-todo-button{
+  display: inline-block;
+  width: 60px;
+  background-color: #F44336;
 }
