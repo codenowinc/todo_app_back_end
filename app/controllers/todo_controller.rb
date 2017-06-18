@@ -13,4 +13,10 @@ class TodoController < ApplicationController
     t.save
     redirect_to "/todo/show/#{ t.id }"
   end
+  
+  def edit
+  end
+  
+  def update
+  end
 end
