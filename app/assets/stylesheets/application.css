@@ -115,13 +115,14 @@ li:hover{
 }
 
 #new-todo-block{
-  width: 60%;
-  margin: 20px auto 0px auto;
+  margin: 0px auto 0px auto;
+  width: 62%;
 }
 
-#add-new-todo-button{
+.add-new-todo-button{
   display: block;
   background-color: #03A9F4;
+  width: 100px;
   margin-top: 10px;
 }
 
@@ -142,14 +143,14 @@ h2{
   margin-bottom: 20px;
 }
 
-#edit-todo-button{
+.edit-todo-button{
   display: inline-block;
   width: 40px;
   background-color: #1ABC9C;
   margin-right: 5px;
 }
 
-#delete-todo-button{
+.delete-todo-button{
   display: inline-block;
   width: 60px;
   background-color: #F44336;

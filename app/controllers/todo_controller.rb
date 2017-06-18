@@ -8,8 +8,8 @@ class TodoController < ApplicationController
   
   def create
     t = Todo.new
-    t.description = params['new-todo-description']
-    t.pomodoro_estimate = params['new-pomodoro-estimate']
+    t.description = params['description']
+    t.pomodoro_estimate = params['pomodoro-estimate']
     t.save
     redirect_to "/todo/show/#{ t.id }"
   end
