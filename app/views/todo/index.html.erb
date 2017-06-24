@@ -2,7 +2,7 @@
   <% @todos.each do |todo| %>
     <li>
       <input type="checkbox" name=""/>
-      <a href="show/<%= todo.id %>"><%= todo.description %></a>
+      <a href="todo/show/<%= todo.id %>"><%= todo.description %></a>
       <span class="pomodoro-estimate small-pomodoro-estimate"><%= todo.pomodoro_estimate %> Pomodoros</span>
     </li>
   <% end %>
